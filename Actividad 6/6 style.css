@@ -1,0 +1,27 @@
+button{
+    align-items: center;
+    padding: 1%;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.botón1:active {
+    color: white;
+    background-color: black;
+}
+.botón2:focus {
+    color: white;
+    background-color: rgb(66, 65, 65);
+}
+.botón3:hover{
+    color:white;
+    background-color: darkgoldenrod;
+}
+.botón2:focus > .span1{
+    display: none;
+}
+.botón2> .span2 {
+    display: none;
+}
+.botón2:focus > .span2 {
+    display: contents;
+}

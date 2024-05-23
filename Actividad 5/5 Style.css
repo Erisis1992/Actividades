@@ -1,0 +1,8 @@
+.displayMe{
+    display: flex; /*<---Organizo las imagenes con flex*/
+    flex-direction: row;/*Las imagenes se van a ubicar en filas*/
+    flex-wrap: wrap; /*Wrap evita que se estire la pantalla*/
+    img {
+        width: 300px;
+    }
+}
