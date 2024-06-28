@@ -1,0 +1,33 @@
+body{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: lightgray;
+}
+div {
+    margin-right: 50px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    background-color: white;
+}
+.box-1to3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex:200px;
+}
+.b4{
+    width:100%;
+    height:200px;
+    background-color: salmon;
+}
+.b3{
+    position: relative;
+    height: 128px;
+    width: 128px;
+}
+.imagen {
+    position: absolute;
+    right:0px;
+    top:100px;
+    background-color: rgb(58, 73, 138);
+}
